@@ -1,0 +1,35 @@
+package program;
+
+import com.sun.rowset.internal.CachedRowSetReader;
+
+public class Apllication {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}
+class GerararPDF implements Runnable{
+	@Override
+	public void run() {
+		System.out.println("Gerar PDF");
+	}
+}
+
+class BarraDeCarregamento implements Runnable{
+	@Override
+	public void run() {
+		System.out.println("Loading...");
+	}
+}
+
+class BarraDeCarregamento2 extends Thread{
+	@Override
+	public void run() {
+		System.out.println("Rodei" + this.getName());
+	}
+}
+
+
+

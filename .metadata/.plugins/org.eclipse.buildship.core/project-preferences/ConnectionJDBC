@@ -1,0 +1,12 @@
+#
+#Mon Dec 13 22:27:48 BRT 2021
+derivedResources=.gradle;build
+linkedResources=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n<classpathentry kind\="lib" path\="C\:/Users/Rcell Asus/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.27/f1da9f10a3de6348725a413304aab6d0aa04f923/mysql-connector-java-8.0.27.jar" sourcepath\="C\:/Users/Rcell Asus/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.27/5acea4f8fd2b80f4739133bc2088d23685d423cd/mysql-connector-java-8.0.27-sources.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\="main,test"/>\r\n\t</attributes>\r\n</classpathentry>\r\n<classpathentry kind\="lib" path\="C\:/Users/Rcell Asus/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/7ec0925cc3aef0335bbc7d57edfd42b0f86f8267/protobuf-java-3.11.4.jar" sourcepath\="C\:/Users/Rcell Asus/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/1e3a86dde8ecf9410e23f22a67ad062316fe94a/protobuf-java-3.11.4-sources.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\="main,test"/>\r\n\t</attributes>\r\n</classpathentry>\r\n</classpath>\n
+managedNatures=org.eclipse.jdt.core.javanature
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildScriptPath=build.gradle
+subprojectPaths=
+hasAutoBuildTasks=false
+gradleVersion=6.3

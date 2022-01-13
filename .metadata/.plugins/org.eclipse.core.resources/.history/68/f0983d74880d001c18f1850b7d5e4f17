@@ -1,0 +1,56 @@
+package program;
+
+public class Apllication {
+
+	public static void main(String[] args) {
+		BarraDeCarregamento2 barra = new BarraDeCarregamento2();
+		BarraDeCarregamento3 barra1 = new BarraDeCarregamento3();
+		//barra.start();
+		//barra1.start();
+		barra.run();
+		barra1.run();
+	}
+
+}
+
+class GerararPDF implements Runnable {
+	@Override
+	public void run() {
+		System.out.println("Gerar PDF");
+	}
+}
+
+class BarraDeCarregamento implements Runnable {
+	@Override
+	public void run() {
+		System.out.println("Loading...");
+	}
+}
+
+class BarraDeCarregamento2 implements Runnable{
+	
+	public void run() {
+		
+		
+		try {
+			Thread.sleep(5000);
+			System.out.println("Rodei barra de carregamento 2 : " );
+		}catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+}
+class BarraDeCarregamento3 implements Runnable{
+	
+	public void run() {
+		
+		
+		try {
+			Thread.sleep(1000);
+			System.out.println("Rodei barra de carregamento 3 : " );
+		}catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+}
+

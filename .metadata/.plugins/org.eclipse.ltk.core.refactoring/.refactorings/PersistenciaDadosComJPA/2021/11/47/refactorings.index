@@ -1,0 +1,18 @@
+1637091798602	Rename package 'PersistenciaDadosComJPA'
+1637091819019	Rename type 'Library'
+1637093327669	Move compilation unit
+1637094559780	Encapsulate field 'estado'
+1637094745413	Encapsulate field 'alunos'
+1637095625110	Rename package 'dao'
+1637095788910	Rename type 'Persistence'
+1637096574051	Rename package 'Domain'
+1637096728143	Delete element
+1637097359362	Move folder
+1637097381847	Move folder
+1637097884926	Move folder
+1637097897717	Move folder
+1637098098105	Move folder
+1637098156382	Delete element
+1637103242484	Move 'META-INF' to 'src'
+1637103261281	Move 'META-INF' to 'bin'
+1637103282201	Move 'META-INF' to 'PersistenciaDadosComJPA'
